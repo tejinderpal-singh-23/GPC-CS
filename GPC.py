@@ -19,7 +19,7 @@ from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import BaggingRegressor
 import joblib
 #to load model .joblib again
-RF = joblib.load('RF3.joblib')
+RF = joblib.load('RF.joblib')
 SVR =joblib.load('SVR.joblib')
 st.write('#Geopolymer Concrete Strength Predictor')
 FAgg=st.number_input('Fine Aggregates content in kg/cum')
