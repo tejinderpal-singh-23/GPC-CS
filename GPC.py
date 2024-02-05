@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st; from PIL import Image
 import pandas as pd
 import numpy as np
 from sklearn.ensemble         import RandomForestRegressor
