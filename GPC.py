@@ -37,4 +37,5 @@ input = np.array(input).reshape(1, -1)
 CS = RF.predict(input)
 st.write("The predicted Compressive Strength of Geopolymer is:", CS , "MPa")
 with st.container():
+  # image1 = Image.open(developedby)
   st.image(developedby)
