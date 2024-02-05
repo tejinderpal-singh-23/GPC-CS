@@ -17,7 +17,6 @@ import numpy as np
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import BaggingRegressor
-from xgboost import XGBRegressor
 import joblib
 #to load model .joblib again
 RF = joblib.load('RF3.joblib')
