@@ -36,7 +36,7 @@ input = [FAgg,CA,M,NaOH,Na2SiO3,FA,Water,Spz,Temp,Age]
 input = np.array(input).reshape(1, -1)
 CS = RF.predict(input)
 st.write("The predicted Compressive Strength of Geopolymer is:", CS , "MPa")
-image1 = 'https://github.com/tejinderpal-singh-23/GPC-CS/blob/main/developedby.jpg'
+image1 = 'https://github.com/tejinderpal-singh-23/GPC-CS/blob/main/developedpng.png'
 with st.container():
   #image1 = Image.open(developedby)
   st.image(image1)
