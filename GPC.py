@@ -35,3 +35,4 @@ Age=st.number_input('Curing Age in days')
 input = [FAgg,CA,M,NaOH,Na2SiO3,FA,Water,Spz,Temp,Age]
 input = np.array(input).reshape(1, -1)
 CS = RF.predict(input)
+st.write("The predicted Compressive Strength of Geopolymer is:", round(yhat1[0]/1000.0, 4), "MPa")
